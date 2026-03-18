@@ -1,0 +1,20 @@
+{
+  "Human": {
+    "DisplayName": "человек",
+    "Enabled": true,
+    "ModActive": true,
+    "BasePrice": 1750,
+    "MinAge": 16,
+    "MaxAge": 65,
+    "AllowCustomXenotypes": true,
+    "DefaultXenotype": "Baseliner",
+    "PreferredPawnKindDefName": null,
+    "AllowedGenders": {
+      "AllowMale": true,
+      "AllowFemale": true,
+      "AllowOther": true
+    },
+    "XenotypePrices": {},
+    "EnabledXenotypes": {}
+  }
+}

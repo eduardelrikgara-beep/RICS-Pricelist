@@ -1,0 +1,57 @@
+{
+  "total": 6,
+  "viewers": [
+    {
+      "username": "gara_elrik",
+      "karma": 100,
+      "coins": 21529,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1456731333"
+      }
+    },
+    {
+      "username": "garagameelrik",
+      "karma": 999,
+      "coins": 10098882,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "485478298"
+      }
+    },
+    {
+      "username": "saiferim",
+      "karma": 100,
+      "coins": 42900,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "46463429"
+      }
+    },
+    {
+      "username": "nightbot",
+      "karma": 100,
+      "coins": 20320,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "19264788"
+      }
+    },
+    {
+      "username": "mah0neytv",
+      "karma": 103,
+      "coins": 1527,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "861542477"
+      }
+    },
+    {
+      "username": "garaelrikx",
+      "karma": 100,
+      "coins": 100,
+      "isBanned": false,
+      "platformIds": {}
+    }
+  ]
+}
