@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RICS Commands Guide</title>
+    <link rel="stylesheet" href="assets/css/rics-store.css">
+    <style>
+        /* Дополнительные стили для гайда */
+        .commands-guide {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .commands-guide h2 {
+            margin-top: 0;
+        }
+        .commands-guide h3 {
+            margin: 0 0 10px 0;
+            color: #555;
+        }
+        .commands-guide ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .commands-guide li {
+            margin-bottom: 5px;
+        }
+        .commands-guide code {
+            background: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .pawn-detail {
+            background: #eef;
+            border-left: 4px solid #66c;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #66c;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RICS Commands Guide</h1>
+            <p>Полный справочник команд для зрителей</p>
+            <a href="index.html" class="back-link">← Вернуться к прайс-листу</a>
+        </header>
+
+        <div class="commands-guide">
+            <h2>📢 Гайд по командам RICS для зрителей</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
+                <div style="flex: 1; min-width: 200px;">
+                    <h3>💰 Экономика</h3>
+                    <ul>
+                        <li><code>!bal</code> – баланс монет и кармы</li>
+                        <li><code>!openlootbox</code> – открыть сундук</li>
+                        <li><code>!whatiskarma</code> – что такое карма</li>
+                    </ul>
+                    <h3>🛒 Покупки</h3>
+                    <ul>
+                        <li><code>!buy [предмет]</code> – купить предмет</li>
+                        <li><code>!pricecheck [предмет]</code> – цена предмета</li>
+                        <li><code>!pawn [раса]</code> – получить персонажа</li>
+                        <li><code>!equip [оружие]</code> – экипировать</li>
+                        <li><code>!wear [одежда]</code> – надеть</li>
+                        <li><code>!backpack [предмет]</code> – в инвентарь</li>
+                        <li><code>!use [предмет]</code> – использовать</li>
+                        <li><code>!surgery [имплант]</code> – операция</li>
+                    </ul>
+                </div>
+                <div style="flex: 1; min-width: 200px;">
+                    <h3>🌪️ События и погода</h3>
+                    <ul>
+                        <li><code>!event [название]</code> – вызвать событие</li>
+                        <li><code>!weather [тип]</code> – сменить погоду</li>
+                        <li><code>!raid [тип] {ставка}</code> – рейд</li>
+                        <li><code>!militaryaid {ставка}</code> – военная помощь</li>
+                    </ul>
+                    <h3>🧬 Черты характера</h3>
+                    <ul>
+                        <li><code>!trait [название]</code> – описание черты</li>
+                        <li><code>!addtrait [черта]</code> – добавить</li>
+                        <li><code>!removetrait [черта]</code> – удалить</li>
+                        <li><code>!settraits [черта1] [черта2]</code> – установить</li>
+                    </ul>
+                </div>
+                <div style="flex: 1; min-width: 200px;">
+                    <h3>👤 Управление персонажем</h3>
+                    <ul>
+                        <li><code>!mypawn</code> – информация о персонаже</li>
+                        <li><code>!healpawn {сумма}</code> – подлечить</li>
+                        <li><code>!revivepawn</code> – воскресить</li>
+                        <li><code>!dye [цвет]</code> – покрасить одежду</li>
+                        <li><code>!passion [навык]</code> – увеличить страсть</li>
+                    </ul>
+                    <h3>💬 Социальные команды</h3>
+                    <ul>
+                        <li><code>!chitchat [имя]</code> – поболтать (10 монет)</li>
+                        <li><code>!flirt [имя]</code> – флирт (20 монет)</li>
+                        <li><code>!insult [имя]</code> – оскорбить (5 монет)</li>
+                        <li><code>!marry [имя]</code> – предложить брак (50 монет)</li>
+                    </ul>
+                </div>
+                <div style="flex: 1; min-width: 200px;">
+                    <h3>🔍 Информация</h3>
+                    <ul>
+                        <li><code>!lookup [тип] [текст]</code> – поиск</li>
+                        <li><code>!commands</code> – список команд</li>
+                        <li><code>!modinfo</code> – версия мода</li>
+                        <li><code>!wealth</code> – богатство колонии</li>
+                        <li><code>!factions</code> – список фракций</li>
+                    </ul>
+                    <h3>📊 Очередь</h3>
+                    <ul>
+                        <li><code>!joinqueue</code> – встать в очередь</li>
+                        <li><code>!queuestatus</code> – место в очереди</li>
+                        <li><code>!acceptpawn</code> – принять персонажа</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Подробный блок о !pawn -->
+            <div class="pawn-detail">
+                <h3 style="margin-top: 0;">👤 Подробнее о команде <code>!pawn</code></h3>
+                <p><strong>Что делает:</strong> Позволяет зрителю получить собственного персонажа в колонии. Это ваш аватар в игре.</p>
+                <p><strong>Синтаксис:</strong> <code>!pawn [раса] [ксенотип] [пол] [возраст]</code></p>
+                <p><strong>Параметры (все необязательные):</strong></p>
+                <ul>
+                    <li><code>раса</code> — например, <code>human</code>, <code>maru</code>, <code>rabbie</code>. Список доступных рас можно посмотреть на вкладке Races.</li>
+                    <li><code>ксенотип</code> — если установлено DLC Biotech: <code>baseliner</code>, <code>hussar</code>, <code>genie</code>, <code>pigskin</code> и др.</li>
+                    <li><code>пол</code> — <code>male</code> или <code>female</code>.</li>
+                    <li><code>возраст</code> — число (например, <code>25</code>).</li>
+                </ul>
+                <p><strong>Примеры:</strong></p>
+                <ul>
+                    <li><code>!pawn human</code> — обычный человек.</li>
+                    <li><code>!pawn human hussar</code> — человек-гусар (ксенотип).</li>
+                    <li><code>!pawn human female</code> — женщина-человек.</li>
+                    <li><code>!pawn human genie male 25</code> — мужчина-гений 25 лет.</li>
+                    <li><code>!pawn maru</code> — персонаж расы Мару (доступны только женщины).</li>
+                    <li><code>!pawn rabbie</code> — персонаж расы Rabbie (только женщины).</li>
+                </ul>
+                <p><strong>Как это работает:</strong></p>
+                <ul>
+                    <li>Если в колонии есть свободные места — персонаж создаётся сразу.</li>
+                    <li>Если мест нет — вы встанете в очередь. Проверить позицию: <code>!queuestatus</code>. Когда очередь подойдёт, бот уведомит, и нужно будет принять персонажа командой <code>!acceptpawn</code>.</li>
+                </ul>
+                <p><strong>Стоимость:</strong> Цены на разные расы и ксенотипы указаны на вкладке Races. Базовая цена человека — 1750 монет, Мару — 2200, Rabbie — 1600.</p>
+                <p><strong>Примечание:</strong> Если вы уже имеете персонажа, команда <code>!pawn</code> не создаст второго. Чтобы сменить персонажа, сначала используйте <code>!leave</code>.</p>
+            </div>
+
+            <div style="margin-top: 20px; padding-top: 10px; border-top: 1px solid #ccc; font-size: 14px; color: #666;">
+                💡 <strong>Совет:</strong> Для точных названий предметов используйте <code>!lookup item [часть_названия]</code>.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
